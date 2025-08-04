@@ -28,7 +28,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.331);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.331);
 }
 
 .head {
@@ -63,22 +63,22 @@ input[type="tel"]:focus {
 }
 
 #name {
-   position: relative;
-  left: 8px;
+  position: relative;
+  left: 10px;
 }
 
 #email {
-   position: relative;
-  left: 8px;
+  position: relative;
+  left: 10px;
 }
 
 #mobile {
-   position: relative;
-  left: 5px;
+  position: relative;
+  left: 7px;
 }
 
 #password {
-   position: relative;
+  position: relative;
   left: -2px;
 }
 
