@@ -4,26 +4,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Sign-up</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="container">
-    <span class="head">Login</span>
+    <span class="head">Sign-up</span>
     <form action="#" method="post" class="form">
 
-      <i class="fa-solid fa-user"></i>
-      <input type="text" id="username" name="username" placeholder="Username" required><br>
+      <label for="name" class="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required><br>
 
-      <i class="fa-solid fa-key"></i>
+      <label for="email" class="email">Email</label>
+      <input type="email" id="email" class="email" placeholder="example123@gmail.com" required><br>
+
+      <label for="mobile" class="mobile">Mobile</label>
+      <input type="tel" id="mobile" minlength="10" maxlength="10" placeholder="6234567899" required><br>
+
+      <label for="password" class="password" placeholder="Your Name" required>Password</label>
       <input type="password" id="password" name="password" placeholder="Password" required><br>
 
-      <input type="submit" id="login" value="Login"><br>
-      <small>You do not have an account?<a href="signup.html">Sign-up</a></small>
+      <input type="submit" id="sign-up" value="Sign-up"><br>
+      <small>Already have an account?<a href="login.html">Login</a></small>
 
     </form>
   </div>
